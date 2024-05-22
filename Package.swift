@@ -17,13 +17,13 @@ let package = Package(
             targets: ["MealzNaviOSSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Dwalero-org/MealzCoreRelease", from: "1.0.13")
+        .package(url: "https://github.com/miamtech/MealzIOSFrameworkRelease", from: "1.0.0")
     ],
     targets: [
         .binaryTarget(
-            name: "MealziOSSDK",
-            url: "https://github.com/Dwalero-org/MealzNaviOSSDKRelease/raw/release/1.0.0/MealzNaviOSSDK.zip",
-            checksum: "f222287bbb86ca08f67881967c8a0b85a25c96cc2f1b8d1736377fddd5ad5229"
+            name: "MealzNaviOSSDK",
+            url: "https://github.com/Dwalero-org/MealzNaviOSSDKRelease/raw/release/1.0.1/MealzNaviOSSDK.zip",
+            checksum: "a39ac80eb6f1d7c9572cf5501207be0dad457b57098ca39eae10ae301d1a06d3"
         )
         
     ]
